@@ -47,8 +47,7 @@ export class Person{
     }
 
     public printAll(){
-        console.log("Name: "+this.name+"\nNationality: "+this.nationality+"\nProfession: "+this.profession+"\nExperience years: "+
-        this.experienceYears);
+        console.log(this.toString());
     }
 
     public toString():string{

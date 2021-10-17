@@ -35,8 +35,7 @@ var Person = /** @class */ (function () {
         this.experienceYears = experienceYears;
     };
     Person.prototype.printAll = function () {
-        console.log("Name: " + this.name + "\nNationality: " + this.nationality + "\nProfession: " + this.profession + "\nExperience years: " +
-            this.experienceYears);
+        console.log(this.toString());
     };
     Person.prototype.toString = function () {
         return "Name: " + this.name + "\nNationality: " + this.nationality + "\nProfession: " + this.profession + "\nExperience years: " +

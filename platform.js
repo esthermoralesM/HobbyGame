@@ -70,9 +70,7 @@ var Platform = /** @class */ (function () {
         this.color = color;
     };
     Platform.prototype.printAll = function () {
-        console.log("Name: " + this.name + "\nRelease Years: " + this.releaseYears + "\nCompany: " + this.company + "\nNbits: " + this.nBits
-            + "\nGeneration: " + this.generation + "\nHasHD: " + this.hasHD + "\nHas internet connection: " + this.hasInternetConnection
-            + "\nStorage Device: " + this.storageDevice + "\nColor: " + this.color);
+        console.log(this.toString());
     };
     Platform.prototype.toString = function () {
         return "Name: " + this.name + "\nRelease Years: " + this.releaseYears + "\nCompany: " + this.company + "\nNbits: " + this.nBits
